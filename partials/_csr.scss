@@ -1,0 +1,331 @@
+#csr {
+    position: relative;
+    width: 100%;
+    margin-top: 5rem;
+    // width: 67.5rem;
+    height: 34.525rem;
+    .big-container {
+        position: absolute;
+        width: 67.5rem;
+        // height: 34.525rem;
+        // width: 100%;
+        height: 100%;
+        .title_csr {
+            width: 15rem;
+
+            h2 {
+                color: $black-color;
+                font-size: 2.125rem;
+
+            }
+
+            .border_title {
+                width: 27%;
+                border-bottom: $primary-color solid 0.281rem;
+
+            }
+
+        }
+
+        .paragraph_csr {
+            margin-top: 1rem;
+            width: 58.25rem;
+
+            p {
+                font-size: 0.938rem;
+            }
+
+        }
+
+
+        .card_container_csr {
+            display: flex;
+            position: absolute;
+            top: 30%;
+            // width: 67.5rem;
+            height: 17.773rem;
+
+            .single_card_csr {
+                margin-right: 1.4rem;
+                height: 100%;
+                width: 14.589rem;
+                //for js
+                opacity:0;
+                margin-top:100px;
+
+                .img_card_csr{
+                    position: relative;
+                    width: 100%;
+                    height: 100%;
+                    background-image: url('./assets/Innovation Labs 4.png');
+                    background-size: cover;
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    border-top: $yellow-line solid 0.259rem;
+
+                    .shadow_csr {
+                        position: absolute;
+                        width: 100%;
+                        height: 100%;
+                        background-image: linear-gradient(2deg, #000000f8 0%, #00000049 74%);
+
+                        .text_card_container {
+                            position: absolute;
+                            bottom: 20%;
+                            color: $white-color;
+                            padding: 5%;
+
+                            .title_card_csr {
+                                h2 {}
+                            }
+
+                            .subtitle_card_csr {
+                                h6 {
+                                    font-size: 0.875rem;
+                                    font-weight: normal;
+                                }
+                            }
+                        }
+
+
+
+                    }
+
+                    .button_card_csr {
+                        position: absolute;
+                        bottom: 0;
+                        padding: 5%;
+
+                        button {
+                            width: 7.5rem;
+                            height: 2.375rem;
+                            background: $white-color;
+                            color: $black-color;
+                            font-size: 0.75rem;
+                            font-weight: bold;
+                            border: $black-color 1px solid;
+                            
+                            &:hover{
+                                color: $white-color;
+                            background: $primary-color;
+                            cursor: pointer;
+                            }
+                        }
+                    }
+                }
+
+
+
+
+                .img_card_csr2{
+                    position: relative;
+                    width: 100%;
+                    height: 100%;
+                    background-image: url('./assets/Innovation Labs 4.png');
+                    background-size: cover;
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    border-top: $green-line solid 0.259rem;
+
+                    .shadow_csr {
+                        position: absolute;
+                        width: 100%;
+                        height: 100%;
+                        background-image: linear-gradient(2deg, #000000f8 0%, #00000049 74%);
+                        .text_card_container {
+                            position: absolute;
+                            bottom: 20%;
+                            color: $white-color;
+                            padding: 5%;
+
+                            .title_card_csr {
+                                h2 {}
+                            }
+
+                            .subtitle_card_csr {
+                                h6 {
+                                    font-size: 0.875rem;
+                                    font-weight: normal;
+                                }
+                            }
+                        }
+
+
+
+                    }
+
+                    .button_card_csr {
+                        position: absolute;
+                        bottom: 0;
+                        padding: 5%;
+
+                        button {
+                            width: 7.5rem;
+                            height: 2.375rem;
+                            background: $white-color;
+                            color: $black-color;
+                            font-size: 0.75rem;
+                            font-weight: bold;
+                            border: $black-color 1px solid;
+                            
+                            &:hover{
+                                color: $white-color;
+                            background: $primary-color;
+                            cursor: pointer;
+                            }
+                        }
+                    }
+                }
+
+
+                .img_card_csr3{
+                    position: relative;
+                    width: 100%;
+                    height: 100%;
+                    background-image: url('./assets/Innovation Labs 4.png');
+                    background-size: cover;
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    border-top: $light-blue-line solid 0.259rem;
+                    .shadow_csr {
+                        position: absolute;
+                        width: 100%;
+                        height: 100%;
+                        background-image: linear-gradient(2deg, #000000f8 0%, #00000049 74%);
+                        .text_card_container {
+                            position: absolute;
+                            bottom: 20%;
+                            color: $white-color;
+                            padding: 5%;
+
+                            .title_card_csr {
+                                h2 {}
+                            }
+
+                            .subtitle_card_csr {
+                                h6 {
+                                    font-size: 0.875rem;
+                                    font-weight: normal;
+                                }
+                            }
+                        }
+
+
+
+                    }
+
+                    .button_card_csr {
+                        position: absolute;
+                        bottom: 0;
+                        padding: 5%;
+
+                        button {
+                            width: 7.5rem;
+                            height: 2.375rem;
+                            background: $white-color;
+                            color: $black-color;
+                            font-size: 0.75rem;
+                            font-weight: bold;
+                            border: $black-color 1px solid;
+                            
+                            &:hover{
+                                color: $white-color;
+                            background: $primary-color;
+                            cursor: pointer;
+                            }
+                        }
+                    }
+                }
+
+
+                .img_card_csr4{
+                    position: relative;
+                    width: 100%;
+                    height: 100%;
+                    background-image: url('./assets/Innovation Labs 4.png');
+                    background-size: cover;
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    border-top: $pink-line solid 0.259rem;
+                    .shadow_csr {
+                        position: absolute;
+                        width: 100%;
+                        height: 100%;
+                        background-image: linear-gradient(2deg, #000000f8 0%, #00000049 74%);
+                        .text_card_container {
+                            position: absolute;
+                            bottom: 20%;
+                            color: $white-color;
+                            padding: 5%;
+
+                            .title_card_csr {
+                                h2 {}
+                            }
+
+                            .subtitle_card_csr {
+                                h6 {
+                                    font-size: 0.875rem;
+                                    font-weight: normal;
+                                }
+                            }
+                        }
+
+
+
+                    }
+
+                    .button_card_csr {
+                        position: absolute;
+                        bottom: 0;
+                        padding: 5%;
+
+                        button {
+                            width: 7.5rem;
+                            height: 2.375rem;
+                            background: $white-color;
+                            color: $black-color;
+                            font-size: 0.75rem;
+                            font-weight: bold;
+                            border: $black-color 1px solid;
+
+                            &:hover{
+                                color: $white-color;
+                            background: $primary-color;
+                            cursor: pointer;
+                            }
+                        }
+                    }
+                }
+
+
+
+            }
+
+        }
+
+
+.center_button_csr{
+    position: absolute;
+    bottom: 1%;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    button{
+width: 11.699rem;
+height: 3.25rem;
+color: $black-color;
+background: $white-color;
+border: $black-color solid 1.5px;
+font-weight: bold;
+font-size: 0.875rem;
+&:hover{
+    color: $white-color;
+background: $black-color;
+cursor: pointer;
+}
+    }
+}
+
+
+    }
+}

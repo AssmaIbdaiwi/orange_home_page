@@ -1,0 +1,284 @@
+#help {
+    width: 100%;
+    height:  48.523rem;
+    // height: 60.814rem;
+    position: relative;
+    margin-top: 5rem;
+    border-top: $border-top-grey solid 4.27px;
+
+    .grey_help_background {
+        position: absolute;
+        top: 0;
+        background: $light-color;
+        // height: 48.523rem;
+        height: 34.771rem;
+        width: 100%;
+    }
+
+    .black_help_background {
+        position: absolute;
+        bottom: 0;
+        background: $black-color;
+        width: 100%;
+        // height: 26.043rem;
+        height: 14.5rem;
+    }
+
+
+
+    .big-container {
+        position: absolute;
+        top: 7%;
+        width: 69.5rem;
+        height: 40rem;
+        display: flex;
+
+        .center_image_help {
+            position: absolute;
+            top: 34.5%;
+            width: 63.438rem;
+            height: 28.813rem;
+
+  //for js
+  opacity:0;
+  margin-top:200px;
+
+            .right_container_help {
+                position: absolute;
+                left: 4%;
+                bottom: 0;
+                width: 17.509rem;
+                height: 26.041rem;
+                border: solid $grey-separetor 1.25px;
+
+                .img_right_help_center {
+
+                    width: 100%;
+                    height: 100%;
+                    background-image: url('./assets/U302373_medium.png');
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    background-size: cover;
+
+                    .shadow_help {
+                        width: 100%;
+                        height: 100%;
+                        background-image: linear-gradient(2deg, #000000 0%, #00000070 74%);
+
+                        .text_container_right_help {
+                            position: relative;
+                            width: 100%;
+                            height: 100%;
+                            padding: 1rem;
+
+                            .title_right_help_center {
+                                position: absolute;
+                                color: $primary-color;
+                                font-size: 1.2rem;
+                                width: 100%;
+                                height: 90%;
+
+
+                            }
+
+                            .first_text_right {
+                                position: absolute;
+                                top: 35%;
+                                color: $white-color;
+                                width: 85%;
+                                height: 4rem;
+                                border-bottom: $white-color solid 1px;
+                                cursor: pointer;
+                            }
+
+                            .subtitle_right_help_center {
+                                position: absolute;
+                                top: 55%;
+                                color: $white-color;
+                                width: 85%;
+                                height: 3rem;
+                                border-bottom: $white-color solid 1px;
+                                cursor: pointer;
+                            }
+
+                            .second_text_right {
+                                position: absolute;
+                                top: 70%;
+                                color: $white-color;
+                                width: 90%;
+                                height: 3rem;
+                                cursor: pointer;
+                            }
+
+                            .button_help_view {
+                                position: absolute;
+                                bottom: 3%;
+
+                                width: 14.816rem;
+                                height: 3.111rem;
+
+                                button {
+                                    width: 100%;
+                                    height: 100%;
+                                    font-size: 0.875rem;
+                                    font-weight: bold;
+                                    cursor: pointer;
+                                    background: $white-color;
+                                }
+                            }
+                        }
+                    }
+
+
+
+                }
+            }
+
+            .left_container_help {
+                position: absolute;
+                right: 0;
+                bottom: 0;
+                width: 42.279rem;
+                height: 26.041rem;
+                background-color: $white-color;
+
+                .top_img_help_center {
+                    position: absolute;
+                    height: 13.75rem;
+                    width: 100%;
+
+                    img {
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+
+                .bottom_text_help_center {
+                    position: absolute;
+                    bottom: 0;
+                    height: 12.291rem;
+                    width: 100%;
+
+                    .text_container_center {
+                        position: absolute;
+                        top: 20%;
+                        margin-left: 7%;
+                        height: 70%;
+                        width: 90%;
+                        display: flex;
+
+
+                        .logo_center {
+                            margin-right: 7%;
+                            width: 5rem;
+                            height: 4.188rem;
+                        }
+
+                        .left_center_title_container {
+                            width: 100%;
+                            height: 100%;
+
+                            h1 {
+                                color: $primary-color;
+                            }
+
+                            p {
+                                font-size: 0.813rem;
+                            }
+
+                            h5 {
+                                position: absolute;
+                                bottom: 1%;
+
+                                a {
+                                    color: $primary-color;
+                                    text-decoration: underline;
+                                }
+                            }
+                        }
+
+                    }
+
+                }
+            }
+
+
+        }
+
+        .title_help {
+            width: 14rem;
+            margin-right: 5rem;
+                 //for js
+                 opacity:0;
+                 margin-top:100px;
+
+            h2 {
+                color: $black-color;
+                font-size: 2.125rem;
+
+            }
+
+            .border_title {
+                width: 27%;
+                border-bottom: $primary-color solid 0.281rem;
+
+            }
+        }
+
+        .big_icon_container_help {
+            width: 50rem;
+            height: 8.125rem;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+
+            .icon_container_help {
+                //   margin: 0 3rem 2rem 0;
+                position: relative;
+                width: 14rem;
+                height: 6rem;
+                display: flex;
+                align-items: center;
+
+                //for js
+                opacity:0;
+                margin-top:100px;
+
+                .icon_help {
+                    margin-right: 1rem;
+
+                    .img {
+                        width: 3.688rem;
+                        height: 3.688rem;
+                    }
+
+
+                }
+
+                .text_icon_help {
+                    width: 9rem;
+                    height: 2.25rem;
+
+
+                    h4 {
+                        font-size: 1.063rem;
+
+                    }
+
+                }
+
+            }
+
+
+
+        }
+
+
+
+
+
+
+
+
+    }
+}

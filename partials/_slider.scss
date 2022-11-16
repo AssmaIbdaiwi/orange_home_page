@@ -1,0 +1,92 @@
+#slider {
+    margin-top: 6rem;
+
+    display: flex;
+    position: absolute;
+    top: 10%;
+ 
+    .big-container {
+
+       
+
+        .slider__cont {
+            width: 67.5rem;
+            // height: 26.985rem;
+            height: 25rem;
+            border: solid 0.094rem $grey-border-color;
+            background-color: $black-color;
+         
+            .img_div {
+             
+                display: flex;
+                justify-content: flex-end;
+                height: 100%;
+
+
+                .osn__img{
+                    position: absolute;
+                    right: 4%;
+                    top:7%;
+                    width: 5.083rem;
+                    height: 3.375rem;
+                }
+              .title_slider{
+                         width: 25rem;
+                         .btn{
+                            button{
+                                color: $white-color;
+                                font-size: 0.938rem;
+                                font-weight: bold;
+                                background: $primary-color;
+                                width: 10.224rem;
+                                height: 3.112rem;
+                                border-radius: 2px;
+                                margin-left: 20%;
+                                margin-top: 17%;
+                                cursor: pointer;
+                                &:hover{
+                                    background-color: $black-color;
+                                    border: 1px solid $white-color;
+
+                                }
+                            }
+                            } 
+                 p{
+                    position: relative;
+                    width: 30rem;
+                    margin-top: 20%;
+                    margin-left: 20%;
+                color: $white-color;
+                font-weight: bold;
+                font-size: 2.625rem;
+                span{
+                    color: $primary-color;
+                }
+  
+                 }
+
+
+
+               }
+                .img_slider{
+                    
+                    background-image:linear-gradient(90deg, rgb(0, 0, 0,1), rgba(0, 0, 0, 0.90), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),url('../assets/77829-Orange-OSN-PSDs-Out-06_0002__Clip-Group_@2x.png');
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    background-size: 70rem 50rem;
+                    width: 100%;
+                
+                }
+
+
+
+               
+
+            }
+
+        }
+
+
+    }
+}
+

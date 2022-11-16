@@ -1,0 +1,207 @@
+#offer-services {
+    width: 100%;
+    height: 48.316rem;
+    position: relative;
+
+    .black_offer_background {
+        height: 34.894rem;
+        width: 44.576rem;
+        background: $black-color;
+
+    }
+
+    .big-container {
+        position: absolute;
+        top: 10%;
+        width: 67.5rem;
+
+        .title_offer {
+            h2 {
+                font-size: 2.125rem;
+                color: $white-color;
+            }
+
+        }
+
+        .tab_offers {
+            // display: flex;
+            // justify-content: space-between;
+            margin: 2% 0 3% 0;
+
+            a {
+                color: $white-color;
+                font-size: 0.938rem;
+                margin-right: 2rem;
+
+                &:hover {
+                    color: $primary-color;
+                    text-decoration: underline;
+
+                }
+            }
+
+        }
+
+        .offers_card_container {
+            height: 26.301rem;
+            width: 67.5rem;
+            display: flex;
+            cursor: pointer;
+            
+            
+          
+            .offers_card {
+                width: 19.693rem;
+                height: 100%;
+                margin-right: 1%;
+                position: relative;
+                opacity:0;
+                margin-top:70px;
+
+
+                .img_offers_card {
+
+                    height: 100%;
+                    width: 100%;
+                    background-image: url('./assets/Untitled-3.png');
+                    background-position: center;
+                    background-repeat: no-repeat;
+
+                }
+
+                .shadow_offers_card {
+                    position: absolute;
+                    bottom: 0%;
+                    width: 100%;
+                    height: 14.938rem;
+                    background-image: linear-gradient(2deg, #000000 0%, #00000088 74%);
+
+                    .content_offers {
+                        padding: 5% 10%;
+
+                        h3 {
+                            color: $white-color;
+                            opacity: 100%;
+
+                        }
+
+                        p {
+                            color: $white-color;
+
+                        }
+
+                        h2 {
+                            margin-top: 9%;
+                            margin-bottom: 10%;
+                            font-size: 1.313rem;
+                            font-weight: bold;
+                            color: $primary-color;
+
+                            .cent {
+                                font-weight: normal;
+                            }
+
+                            .dinar {
+                                font-size: 1.625rem;
+                                font-weight: bold;
+                            }
+
+                            .month {
+                                font-size: 0.938rem;
+                                font-weight: normal;
+                                color: $white-color;
+                            }
+
+
+                        }
+
+                        button {
+                            margin-bottom: 10%;
+                            height: 3.75rem;
+                            width: 100%;
+                            background: $white-color;
+                            font-size: 0.938rem;
+                            font-weight: bold;
+
+                            &:hover {
+                                background-color: $primary-color;
+                                color: $white-color;
+                                text-decoration: underline;
+
+                            }
+                        }
+                    }
+
+
+                }
+
+                .mini_logo_offers {
+                    position: absolute;
+                    right: 3%;
+                    top: 3%;
+                    width: 2.25rem;
+                    height: 2.25rem;
+                }
+            }
+        }
+
+.end_offers{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5%;
+
+    .arrows_offers {
+            display: flex;
+            justify-content: space-between;
+            width: 7rem;
+            height: 4rem;
+    
+            .circle_arrow {
+                width: 3rem;
+                height: 3rem;
+                border-radius: 50%;
+                border: $black-color 1px solid;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+    
+    
+                i {
+                    font-size: 1.5rem;
+                }
+    
+            }
+    
+    
+        
+    
+        color: $black-color;
+    
+    
+    
+    }
+    button{
+        width: 15.788rem;
+        height: 3.25rem;
+        background-color: $white-color;
+        border: $black-color solid 2px;
+        cursor: pointer;
+
+        a{
+            font-weight: bold;
+            font-size: 0.875rem;
+        }
+        
+       
+        &:hover{
+            background: $black-color;
+            color: $white-color;
+          }
+    }
+
+}
+
+
+    }
+
+}

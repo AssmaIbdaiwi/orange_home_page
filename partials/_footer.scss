@@ -1,0 +1,128 @@
+footer {
+    height: 26.663rem;
+    width: 100%;
+    position: relative;
+    top: 0;
+
+    .background_footer {
+        position: absolute;
+        top: 0;
+        background: $grey-footer;
+        width: 100%;
+        height: 100%;
+    }
+
+    .big-container {
+        position: absolute;
+        top: 15%;
+        width: 67.5rem;
+        height: 22rem;
+
+        .list_container_footer {
+            display: flex;
+            justify-content: space-between;
+
+            ul {
+                .title_footer_list {
+                    color: $white-color;
+                    font-size: 0.938rem;
+                    font-weight: bold;
+                    margin-bottom: 2rem;
+                }
+
+                li {
+                    margin-bottom: 0.5rem;
+
+                    a {
+                        color: $white-color;
+                        font-size: 0.844rem;
+
+                        &:hover {
+                            color: $primary-color;
+                        }
+
+                    }
+                }
+
+                .icon_container_footer {
+                    display: flex;
+
+                    .footer_icon {
+                        display: flex;
+                        width: 2.503rem;
+                        height: 2.503rem;
+                        border: solid 1px $white-color;
+                        justify-content: center;
+                        align-items: center;
+                        margin-right: 0.5rem;
+
+                        i {
+                            font-size: 1rem;
+                        }
+
+                        &:hover {
+                            color: $primary-color;
+                            border-color: $primary-color;
+                        }
+                    }
+                }
+            }
+
+
+        }
+
+.copyright_container{
+    position: absolute;
+    bottom: 0;
+    border-top: 1px solid $white-color;
+    width: 100%;
+    height: 6rem;
+    display: flex;
+    align-items: center;
+   .copyright{
+    margin-right: 15rem;
+    p {
+            color: #999999;
+    
+    
+            font-size: 0.688rem;
+    
+    
+            .orange {
+                font-weight: bold;
+                font-size: 0.75rem;
+                color: $white-color;
+            }
+    
+    
+    
+            .year {
+                color: #999999;
+                font-weight: bold;
+            }
+    
+        }
+   } 
+.language{
+    label{
+        color: $white-color;
+        font-size: 0.75rem;
+        font-weight: 500;
+    }
+    select{
+        background: $grey-footer;
+        color: $white-color;
+    }
+}
+
+
+}
+
+    }
+
+
+
+
+
+
+}

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="50" height="61.442" viewBox="0 0 50 61.442">
+  <defs>
+    <filter id="svg_2" x="0" y="0" width="50" height="61.442" filterUnits="userSpaceOnUse">
+      <feOffset dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2.5" result="blur"/>
+      <feFlood flood-opacity="0.2"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="cursorhand" transform="translate(7.5 5.5)">
+    <g id="svg_3">
+      <g transform="matrix(1, 0, 0, 1, -7.5, -5.5)" filter="url(#svg_2)">
+        <path id="svg_2-2" data-name="svg_2" d="M58.853,30.675v1.99H56.973V51.234H55.085v-1.99h-7.56v6.767H48.9v2.542l2.006,0v4.628h2.022v4.147h2.022V71.15h2.014v5.959H76.475v.008h2.157V71.8H80.65V65.83h1.875V49.774H80.65V47.593H78.632V45.926H74.6v-1.99H68.4v-1.99H65.046V32.587H63.158V30.675H58.853Z" transform="translate(-40.03 -25.18)" fill="#fff"/>
+      </g>
+      <path id="svg_1" d="M62.174,35.853v1.964H60.338v18.32H58.494V54.173H51.107V60.85h1.347v2.508l1.96,0v4.566H56.39v4.091h1.976v3.768h1.968v5.879H79.392v.008H81.5V76.429h1.972V70.538H85.3V54.7H83.471V52.545H81.5V50.9H77.555V48.936H71.5V46.973H68.226V37.739H66.381V35.853H62.175Zm.1,2.009H66.25V56.8h1.976V48.945H71.5v7.961H73.48V51.031h3.944v7.745H79.4V52.864h1.972v1.964h1.939V69.883H81.368v5.891H79.392V79.71H62.437V75.128H60.465V71.2H58.494V67.265H56.522v-4.57H54.55V60.731l-1.442,0V56.268h5.258v2.213h1.972V64h1.935V37.862Z" transform="translate(-50.771 -35.368)"/>
+    </g>
+  </g>
+</svg>

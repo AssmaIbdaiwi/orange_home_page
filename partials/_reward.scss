@@ -1,0 +1,610 @@
+#rewards {
+    width: 100%;
+    height: 51.469rem;
+    position: relative;
+
+
+    .container_background_reward {
+        display: flex;
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 100%;
+
+        .img_reward_background {
+            position: absolute;
+            left: 0;
+            height: 100%;
+            width: 32.814rem;
+
+
+        }
+
+        .black_reward_background {
+            position: absolute;
+            right: 0;
+
+            width: 55rem;
+            height: 100%;
+            background-color: $black-color;
+
+
+            .title_black_rewards {
+                height: 8rem;
+                width: 37.032rem;
+                display: flex;
+                position: absolute;
+                top: 10%;
+                left: 10%;
+
+                .orangeDeals {
+                    color: $primary-color;
+                    margin-right: 2rem;
+
+                    h2 {
+                        font-size: 1.313rem;
+                    }
+
+                    .border_title {
+                        width: 50%;
+                        border-bottom: solid $primary-color;
+                    }
+                }
+
+                .tikramPoints {
+                    color: $white-color;
+
+                    h2 {
+                        font-size: 1.313rem;
+                    }
+
+                }
+
+            }
+
+            .description_rewards {
+                position: absolute;
+                bottom: 0;
+
+                p {
+
+                    color: $white-color;
+                }
+            }
+        }
+    }
+
+
+    .big-container {
+        position: absolute;
+        width: 76.3rem;
+        height: 100%;
+
+
+
+
+        .card_reward-container {
+            display: flex;
+            position: absolute;
+            
+            top: 30%;
+            height: 27.683rem;
+            // width:0;
+            opacity:0;
+             margin-left:500px;
+      
+            .card_reward {
+                margin-right: 1.4rem;
+                width: 19.875rem;
+                height: 100%;
+                border: $grey-border-color solid 1px;
+                cursor: pointer;
+                // opacity:0;
+                // margin-left:500px;
+                display: none;
+                .img_reward1 {
+                    position: relative;
+                    width: 100%;
+                    height: 100%;
+                    background-image: url('./assets/photo-1565299624946-b28f40a0ae38-1.png');
+                    background-size: cover;
+                    background-repeat: no-repeat;
+
+                    .shadow_reward {
+                        width: 100%;
+                        height: 100%;
+                        position: absolute;
+                        background-image: linear-gradient(2deg, #000000d7 0%, #0000000c 74%);
+
+                        .icon_reward_brand {
+
+                            position: absolute;
+                            top: 3%;
+                            left: 7%;
+                            width: 5.008rem;
+                            height: 5.008rem;
+                            border-radius: 50%;
+                            background-color: $white-color;
+                            background-image: url('./assets/talabat-logo-PNG.png');
+                            background-size: contain;
+                            background-position: center;
+                            background-repeat: no-repeat;
+
+
+                        }
+
+                        .text_container_reward {
+                            color: $white-color;
+                            position: absolute;
+                            bottom: 0;
+                            width: 100%;
+                            height: 60%;
+                            padding: 10% 2% 10% 10%;
+
+                            .brand_reward {
+                                h4 {
+                                    font-weight: normal;
+                                }
+                            }
+
+                            .button_reward_container {
+
+                                position: absolute;
+                                bottom: 10%;
+                                width: 100%;
+                                height: 3.25rem;
+                                display: flex;
+
+                                .rewardbutton {
+                                    height: 100%;
+                                    width: 9.712rem;
+
+
+                                    button {
+                                        width: 100%;
+                                        height: 100%;
+                                        background: $white-color;
+                                        color: $black-color;
+                                        font-size: 0.875rem;
+                                        font-weight: bold;
+                                        border: 1px solid $black-color;
+                                        cursor: pointer;
+
+                                        &:hover {
+                                            background: $primary-color;
+                                            color: $white-color;
+                                        }
+                                    }
+                                }
+
+                                .rewardgift {
+                                    position: absolute;
+                                    top: 6%;
+                                    right: 30%;
+
+                                    img {
+                                        width: 1.75rem;
+                                        height: 1.75rem;
+                                    }
+                                }
+
+                                .rewardpoint {
+                                    position: absolute;
+                                    top: 6%;
+                                    right: 18%;
+                                    width: 1.875rem;
+
+                                    h3 {
+                                        margin-bottom: 0;
+                                    }
+
+                                    h6 {
+                                        font-weight: normal;
+                                        margin-top: 0;
+                                    }
+                                }
+                            }
+
+
+
+
+
+
+
+
+                        }
+                    }
+
+                }
+
+                .img_reward2 {
+                    position: relative;
+                    width: 100%;
+                    height: 100%;
+                    background-image: url('./assets/Orange Deals Banners Design - 77848-05.png');
+                    background-size: cover;
+                    background-repeat: no-repeat;
+
+                    .shadow_reward {
+                        width: 100%;
+                        height: 100%;
+                        position: absolute;
+                        background-image: linear-gradient(2deg, #000000d7 0%, #0000000c 74%);
+
+                        .icon_reward_brand {
+
+                            position: absolute;
+                            top: 3%;
+                            left: 7%;
+                            width: 5.008rem;
+                            height: 5.008rem;
+                            border-radius: 50%;
+                            background-image: url('./assets/unnamed-2.png');
+                            background-size: cover;
+
+
+                        }
+
+                        .text_container_reward {
+                            color: $white-color;
+                            position: absolute;
+                            bottom: 0;
+                            width: 100%;
+                            height: 60%;
+                            padding: 10% 2% 10% 10%;
+
+
+                            .brand_reward {
+                                h4 {
+                                    font-weight: normal;
+                                }
+                            }
+
+                            .button_reward_container {
+
+                                position: absolute;
+                                bottom: 10%;
+                                width: 100%;
+                                height: 3.25rem;
+                                display: flex;
+
+                                .rewardbutton {
+                                    height: 100%;
+                                    width: 9.712rem;
+
+
+                                    button {
+                                        width: 100%;
+                                        height: 100%;
+                                        background: $white-color;
+                                        color: $black-color;
+                                        font-size: 0.875rem;
+                                        font-weight: bold;
+                                        border: 1px solid $black-color;
+                                        cursor: pointer;
+
+                                        &:hover {
+                                            background: $primary-color;
+                                            color: $white-color;
+                                        }
+                                    }
+                                }
+
+                                .rewardgift {
+                                    position: absolute;
+                                    top: 6%;
+                                    right: 30%;
+
+                                    img {
+                                        width: 1.75rem;
+                                        height: 1.75rem;
+                                    }
+                                }
+
+                                .rewardpoint {
+                                    position: absolute;
+                                    top: 6%;
+                                    right: 18%;
+                                    width: 1.875rem;
+
+                                    h3 {
+                                        margin-bottom: 0;
+                                    }
+
+                                    h6 {
+                                        font-weight: normal;
+                                        margin-top: 0;
+                                    }
+                                }
+                            }
+
+
+                        }
+                    }
+
+                }
+
+                .img_reward3 {
+                    position: relative;
+                    width: 100%;
+                    height: 100%;
+                    background-image: url('./assets/tmp_3R8zpR_9e4bff8ff8f10143_uberuae-1.png');
+                    background-size: cover;
+                    background-repeat: no-repeat;
+
+                    .shadow_reward {
+                        width: 100%;
+                        height: 100%;
+                        position: absolute;
+                        background-image: linear-gradient(2deg, #000000d7 0%, #0000000c 74%);
+
+                        .icon_reward_brand {
+
+                            position: absolute;
+                            top: 3%;
+                            left: 7%;
+                            width: 5.008rem;
+                            height: 5.008rem;
+                            border-radius: 50%;
+                            background-image: url('./assets/pzbugv4lzp59ivgpccqr.png');
+                            background-size: cover;
+
+
+                        }
+
+                        .text_container_reward {
+                            color: $white-color;
+                            position: absolute;
+                            bottom: 0;
+                            width: 100%;
+                            height: 60%;
+                            padding: 10% 2% 10% 10%;
+
+                            .brand_reward {
+                                h4 {
+                                    font-weight: normal;
+                                }
+                            }
+
+                            .button_reward_container {
+
+                                position: absolute;
+                                bottom: 10%;
+                                width: 100%;
+                                height: 3.25rem;
+                                display: flex;
+
+                                .rewardbutton {
+                                    height: 100%;
+                                    width: 9.712rem;
+
+
+                                    button {
+                                        width: 100%;
+                                        height: 100%;
+                                        background: $white-color;
+                                        color: $black-color;
+                                        font-size: 0.875rem;
+                                        font-weight: bold;
+                                        border: 1px solid $black-color;
+                                        cursor: pointer;
+
+                                        &:hover {
+                                            background: $primary-color;
+                                            color: $white-color;
+                                        }
+
+                                    }
+                                }
+
+                                .rewardgift {
+                                    position: absolute;
+                                    top: 6%;
+                                    right: 30%;
+
+                                    img {
+                                        width: 1.75rem;
+                                        height: 1.75rem;
+                                    }
+                                }
+
+                                .rewardpoint {
+                                    position: absolute;
+                                    top: 6%;
+                                    right: 18%;
+                                    width: 1.875rem;
+
+                                    h3 {
+                                        margin-bottom: 0;
+                                    }
+
+                                    h6 {
+                                        font-weight: normal;
+                                        margin-top: 0;
+                                    }
+                                }
+                            }
+
+
+                        }
+                    }
+
+                }
+
+            }
+        }
+
+
+        .single_container {
+            position: absolute;
+            top: 5%;
+            width: 27.683rem;
+            height: 100%;
+
+            .subtitle_rewards {
+                h3 {
+                    font-weight: normal;
+                    font-size: 1.25rem;
+                }
+            }
+
+            .title_rewards {
+
+                .border_title {
+                    width: 20%;
+                    border-bottom: solid $primary-color;
+                }
+
+
+                h2 {
+
+                    font-size: 2.25rem;
+                    font-weight: bold;
+
+                }
+
+            }
+        }  
+        
+                .end_reward {
+        
+               position: absolute;
+               bottom: 5%;
+                // margin-top: 5%;
+                 height: 3.25rem;
+                 width: 75rem;
+        
+                .end_container_reward {
+        
+                    display: flex;
+
+                    .arrows_reward {
+                        display: flex;
+                        justify-content: space-between;
+                        width: 7rem;
+                        height: 4rem;
+                
+                        .circle_arrow {
+                            width: 3rem;
+                            height: 3rem;
+                            border-radius: 50%;
+                            border: $black-color 1px solid;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                
+                
+                            i {
+                                font-size: 1.5rem;
+                            }
+                
+                        }
+                
+                
+                
+                
+                        color: $black-color;
+                
+                
+                
+                    }
+        
+                    .right_buttons_reward {
+                        display: flex;
+                        margin-left: 24%;
+
+                        .play_reward {
+                        
+                          margin-right: 1rem;
+        
+                            .circle_play_reward {
+                                width: 3.111rem;
+                                height: 3.111rem;
+                                border-radius: 50%;
+                                border: $white-color solid 1px;
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                           cursor: pointer;
+                                i{
+                               
+                                    color: $primary-color;
+                                    font-size: 2rem;
+                                }
+                            }
+        
+                        }
+        
+                        .text_button_reward {
+                            margin-right: 3.5rem;
+                            margin-top: 0.5rem;
+                            color: $white-color;
+                            display: flex;
+                            flex-direction: column;
+                            align-content: center;
+                        
+                            h4{
+                                font-size: 1.125rem;
+                                margin-bottom: 0;
+                            }
+                            h6{
+                                
+                                margin-top: 0;
+                                font-weight: normal;
+                                font-size: 0.75rem;
+                                color: #999999;
+                            }
+                        }
+        
+                        .button_reward {
+                            display: flex;
+                            color: $white-color;
+                
+                           #sign_reward{
+                            width: 8.811rem;
+                            height: 100%;
+                             background: $black-color;
+                             color: $white-color;
+                             font-weight: bold;
+                             border: $white-color solid 0.078rem;
+                             margin-right: 1rem;
+                             cursor: pointer;
+                             &:hover{
+                                background:$white-color ;
+                                color: $black-color;
+                                
+                              }
+                           }
+                           #discover_reward{
+                            width: 11.993rem;
+                            height: 100%;
+                            background: $black-color;
+                            color: $white-color;
+                            font-weight: bold;
+                            border: $white-color solid 0.078rem;
+                            cursor: pointer;
+                            &:hover{
+                                background:$white-color ;
+                                color: $black-color;
+                                
+                              }
+                           }
+                        }
+        
+                    }
+                }
+            }
+
+
+
+    
+    }
+}
+
+.img_reword_pattern{
+    position: absolute;
+    right: 0;
+    width: 55rem;
+    height: 5.824rem;
+    // background-color: red;
+}

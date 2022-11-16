@@ -1,0 +1,431 @@
+#eshop-featured {
+    width: 100%;
+    position: relative;
+height: 65rem;
+
+
+    .big-container {
+        position: absolute;
+        top: 10%;
+        width: 67.5rem;
+
+        .title_eshop {
+            h2 {
+                font-size: 2.125rem;
+                font-weight: bold;
+                color: $black-color;
+            }
+
+        }
+
+        .tab_eshop {
+            // display: flex;
+            // justify-content: space-between;
+            margin: 2% 0 3% 0;
+
+            a {
+                color: $black-color;
+                font-size: 1.063rem;
+                margin-right: 2rem;
+
+                &:hover {
+                    color: $primary-color;
+                    text-decoration: underline;
+                    font-weight: bold;
+                    cursor: pointer;
+
+                }
+            }
+
+        }
+
+
+                .brand_mobile_eshop {
+                    display: flex;
+                    margin-bottom: 2rem;
+                    height: 3.969rem;
+                    cursor: pointer;
+                   
+       .apple{
+        width: 7.324rem;
+        height: 100%;
+        border: solid 1px $grey-brand-border;
+        margin-right: 1rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img{
+            width: 2rem;
+            height: 2rem;
+        }
+       } 
+       .samsung{
+        width: 7.324rem;
+        height: 100%;
+        border: solid 1px $grey-brand-border;
+        margin-right: 1rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img{
+            width: 4.5rem;
+            height: 2rem;
+        }
+       }
+       .huawei{
+        width: 7.324rem;
+        height: 100%;
+        border: solid 1px $grey-brand-border;
+        margin-right: 1rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img{
+            width: 4.5rem;
+            height: 2rem;
+        }
+       }
+
+       .lenovo{
+        width: 7.324rem;
+        height: 100%;
+        border: solid 1px $grey-brand-border;
+        margin-right: 1rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img{
+            width: 4.5rem;
+            height: 2rem;
+        }
+       }
+                    .drop_down_mobile_brands {
+                        background-color: $black-color;
+                        width: 9.544rem;
+                        height: 100%;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        margin-right: 1rem;
+        
+                        select {
+                            padding: 1rem ;
+                            background-color: $black-color;
+                            width: 9.544rem;
+                            height: 3.969rem;
+                            color: $white-color;
+                            font-size: 0.875rem;
+                            font-weight: bold;
+                        }
+        
+                    }
+
+
+
+                }
+        .eshop_card_container {
+            height: 33.905rem;
+            width: 67.5rem;
+            display: flex;
+
+            // justify-content: space-between;
+            .eshop_card {
+                width: 17rem;
+                height: 100%;
+                margin-right: 1%;
+                position: relative;
+                // border: solid $black-color 1px;
+                box-shadow: rgba(100, 100, 111, 0.356) 0px 7px 29px 0px;
+                opacity:0;
+                margin-top:500px;
+              .mobile_colors{
+                display: flex;
+                flex-direction: column;
+
+                position: absolute;
+                top: 25%;
+                left: 5%;
+
+             
+
+                .grey{
+                 
+                    width: 1.5rem;
+                    height: 1.5rem;
+                    background-color: $grey-brand;
+                    border-radius: 50%;
+                    margin-bottom: 0.5rem;
+                    
+                    // border: solid 0.5px $black-color;
+                }
+                .white{
+                    
+                    width: 1.5rem;
+                    height: 1.5rem;
+                    background-color: $white-color;
+                    border-radius: 50%;
+                    border: solid 0.5px $black-color;
+                    margin-bottom: 0.5rem;
+                }
+                .blue{
+                    width: 1.5rem;
+                    height: 1.5rem;
+                    background-color: $blue-mobile;
+                    border-radius: 50%;
+                    margin-bottom: 0.5rem;
+                    // border: solid 0.5px $black-color;
+                }
+              }  
+    .new_eshop{
+    width:   2.5rem;
+    height: 2.5rem;
+    position: absolute;
+    top: 1%;
+    left: 1%;
+}
+
+.compare_eshop{
+ width:   1.688rem;
+ height: 1.688rem;
+ position: absolute;
+ right: 3%;
+ top: 1%;
+ #addcompare_eshop{
+    display: none;
+
+}
+
+&:hover{
+    #compare_icon{
+        display: none;
+     }
+    
+     #addcompare_eshop{
+        display: inline-block;
+    
+    }
+}
+
+
+}
+
+
+
+
+
+                .img_eshop_card {
+                    display: flex;
+                    justify-content: center;
+                    margin-top: 6%;
+
+                    img {
+                        width: 10rem;
+                        height: 14rem;
+                    }
+
+                }
+
+                .shadow_eshop_card {
+                    position: absolute;
+                    bottom: 0%;
+                    width: 100%;
+                    height: 17rem;
+
+                    .content_eshop {
+                        padding: 0 5%;
+
+                        p {
+                            color: $grey-brand;
+                            font-size: 0.813rem;
+                        }
+
+
+                        h3 {
+                            color: $black-color;
+
+                            padding: 1% 0 20% 0;
+                            font-size: 1.063rem;
+
+
+                        }
+
+                        .details-eshop {
+                            display: flex;
+                            justify-content: space-between;
+                            border-bottom: solid 1px $grey-border-color;
+                            padding-bottom: 10%;
+
+                            a {
+                                color: $black-color;
+                                font-weight: bold;
+                                text-decoration: underline;
+                                font-size: 0.938rem;
+
+
+                            }
+
+                            i {
+                                font-size: 1.5rem;
+                                font-weight: bold;
+                            }
+                        }
+
+                        .price-eshop {
+                            display: flex;
+                            justify-content: space-between;
+                            margin-top: 9%;
+
+                            .newprice {
+                                h2 {
+
+                                    font-size: 1.063rem;
+                                    font-weight: bold;
+                                    color: $primary-color;
+
+                                    .cent {
+                                        font-weight: normal;
+                                    }
+
+                                    .dinar {
+                                        font-size: 1.375rem;
+                                        font-weight: bold;
+                                    }
+                                }
+                            }
+
+
+                            .discount {
+                                h2 {
+                                    font-size: 0.813rem;
+                                    text-decoration: line-through;
+                                    color: $grey-brand;
+                                    font-weight: normal;
+                                }
+
+
+                            }
+
+                        }
+
+                        .buy_eshop {
+
+                            button {
+
+                                height: 3.75rem;
+                                width: 100%;
+                                background: $black-color;
+
+                                span {
+                                    font-size: 0.938rem;
+                                    font-weight: bold;
+                                    color: $white-color;
+                                    margin-left: 1%;
+                                    margin-right: 50%;
+
+
+
+                                }
+
+                                &:hover {
+                                    background-color: $primary-color;
+                                    color: $white-color;
+                                    text-decoration: underline;
+
+                                    #cart_eshop {
+                                        display: none;
+                                    }
+
+                                    #addcart_eshop {
+                                        display: inline-block;
+                                        color: $white-color;
+                                        font-size: 1.5rem;
+                                    }
+
+
+                                }
+                            }
+
+                            #cart_eshop {
+                                color: $white-color;
+                                font-size: 1.5rem;
+
+
+                            }
+
+                            #addcart_eshop {
+                                display: none;
+                            }
+                        }
+
+                    }
+
+
+                }
+
+
+            }
+        }
+
+        .end_eshop {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 5%;
+
+            .arrows_eshop {
+                    display: flex;
+                    justify-content: space-between;
+                    width: 7rem;
+                    height: 4rem;
+            
+                    .circle_arrow {
+                        width: 3rem;
+                        height: 3rem;
+                        border-radius: 50%;
+                        border: $black-color 1px solid;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+            
+            
+                        i {
+                            font-size: 1.5rem;
+                        }
+            
+                    }
+            
+            
+            
+            
+                    color: $black-color;
+            
+            
+            
+                }
+
+            button {
+                width: 15.788rem;
+                height: 3.25rem;
+                background-color: $white-color;
+                border: $black-color solid 2px;
+                cursor: pointer;
+
+                a {
+                    font-weight: bold;
+                    font-size: 0.875rem;
+                }
+
+                &:hover {
+                    background: $black-color;
+                    color: $white-color;
+                }
+
+
+
+            }
+
+        }
+
+
+    }
+
+}
